@@ -115,10 +115,10 @@
 
         NAV {
             bindings = <
-&trans  &trans    &kp UP    &trans     &trans  &trans    &kp N7           &kp N8                &kp N9          &kp N0  &kp HOME  &kp F1
-&trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans    &kp N4           &u_mt RIGHT_SHIFT N5  &u_mt RCTRL N6  &trans  &trans    &kp F10
-&trans  &trans    &trans    &trans     &trans  &trans    &kp N1           &kp N2                &kp N3          &trans  &trans    &kp F20
-                            &trans     &trans  &trans    &lt 3 BACKSPACE  &kp LSHFT
+&trans  &trans  &trans    &kp UP     &trans     &trans    &kp N7           &kp N8                &kp N9          &kp N0  &kp HOME  &kp F1
+&trans  &trans  &kp LEFT  &kp DOWN   &kp RIGHT  &trans    &kp N4           &u_mt RIGHT_SHIFT N5  &u_mt RCTRL N6  &trans  &trans    &kp F10
+&trans  &trans  &trans    &trans     &trans     &trans    &kp N1           &kp N2                &kp N3          &trans  &trans    &kp F20
+                          &trans     &trans     &trans    &lt 3 BACKSPACE  &kp LSHFT
             >;
         };
 
