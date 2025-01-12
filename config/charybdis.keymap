@@ -1,4 +1,5 @@
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1200
+#define POINTING_DEVICE_AUTO_MOUSE_ENABLE false
 
 #include <behaviors/mouse_keys.dtsi>
 #include <behaviors.dtsi>
