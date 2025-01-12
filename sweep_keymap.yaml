@@ -63,19 +63,10 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {type: held}
-    - FUN
+    - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
   SYMNUM:
-  - - {t: ▽, type: trans}
-    - '!'
-    - '@'
-    - '#'
-    - $
-    - '%'
-    - ^
-    - '&'
-    - KP MULTIPLY
-    - (
+  - [BT CLR, '!', '@', '#', $, '%', ^, '&', KP MULTIPLY, (]
   - - )
     - DEL
     - {t: ▽, type: trans}
@@ -133,7 +124,7 @@ layers:
     - MUTE
     - LALT
     - {t: ▽, type: trans}
-    - '&bootloader'
+    - {t: ▽, type: trans}
     - F9
     - F10
     - F11
@@ -142,7 +133,7 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - '&bootloader'
+    - {t: ▽, type: trans}
     - {t: BASE, h: toggle}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -236,11 +227,15 @@ layers:
 combos:
 - p: [19, 20]
   k: '&mkp LCLK'
+  l: [BASE]
 - p: [20, 21]
   k: '&mkp RCLK'
+  l: [BASE]
 - p: [21, 22]
   k: '&mkp MCLK'
+  l: [BASE]
 - p: [8, 9]
   k: DELETE
 - p: [17, 18]
   k: CAPS
+  l: [BASE]
