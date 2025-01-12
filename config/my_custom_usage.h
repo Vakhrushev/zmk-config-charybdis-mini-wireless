@@ -1,6 +1,6 @@
 #pragma once
 
-#include <zmk/hid_usage.h>
+#include <dt-bindings/zmk/hid_usage.h>
 
 // 0xFF00 is a common choice for a vendor page, but pick any 0xFFxx range
 #define MY_VENDOR_USAGE_PAGE  0xFF00
