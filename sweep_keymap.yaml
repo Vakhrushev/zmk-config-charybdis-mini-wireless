@@ -63,10 +63,19 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {type: held}
-    - {t: ▽, type: trans}
-  - [RET]
+    - FUN
+  - - {t: ▽, type: trans}
   SYMNUM:
-  - [BT CLR, '!', '@', '#', $, '%', ^, '&', KP MULTIPLY, (]
+  - - {t: ▽, type: trans}
+    - '!'
+    - '@'
+    - '#'
+    - $
+    - '%'
+    - ^
+    - '&'
+    - KP MULTIPLY
+    - (
   - - )
     - DEL
     - {t: ▽, type: trans}
@@ -124,7 +133,7 @@ layers:
     - MUTE
     - LALT
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - '&bootloader'
     - F9
     - F10
     - F11
@@ -133,12 +142,54 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - '&bootloader'
     - {t: BASE, h: toggle}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {type: held}
     - {type: held}
+  - - {t: ▽, type: trans}
+  AUTO-MOUSE:
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
   SCROLL:
   - - {t: ▽, type: trans}
@@ -185,11 +236,15 @@ layers:
 combos:
 - p: [19, 20]
   k: '&mkp LCLK'
+  l: [BASE]
 - p: [20, 21]
   k: '&mkp RCLK'
+  l: [BASE]
 - p: [21, 22]
   k: '&mkp MCLK'
+  l: [BASE]
 - p: [8, 9]
   k: DELETE
 - p: [17, 18]
   k: CAPS
+  l: [BASE]
