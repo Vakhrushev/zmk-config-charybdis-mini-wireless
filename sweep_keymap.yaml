@@ -53,7 +53,7 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - HID USAGE(0xFF00, 0x01)
   - - '1'
     - '2'
     - '3'
@@ -246,4 +246,4 @@ combos:
 - p: [8, 9]
   k: DELETE
 - p: [17, 18]
-  k: CAPS LOCK
+  k: CAPS
