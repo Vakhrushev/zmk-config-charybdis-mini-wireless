@@ -124,7 +124,7 @@ layers:
     - MUTE
     - LALT
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - '&bootloader'
     - F9
     - F10
     - F11
@@ -133,7 +133,7 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - '&bootloader'
     - {t: BASE, h: toggle}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
