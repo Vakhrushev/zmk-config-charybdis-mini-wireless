@@ -63,7 +63,7 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {type: held}
-    - {t: ▽, type: trans}
+    - FUN
   - - {t: ▽, type: trans}
   SYMNUM:
   - [BT CLR, '!', '@', '#', $, '%', ^, '&', KP MULTIPLY, (]
