@@ -30,41 +30,41 @@ layers:
     - UP
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
+    - '-'
     - '7'
     - '8'
     - '9'
-    - '0'
-  - - HOME
-    - F1
+  - - /
+    - BSPC
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - LEFT
     - DOWN
     - RIGHT
     - {t: ▽, type: trans}
+    - +
     - '4'
-    - {t: '5', h: RIGHT SHIFT}
-  - - {t: '6', h: RCTRL}
+  - - '5'
+    - '6'
+    - '*'
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - F10
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - HID USAGE(0xFF00, 0x01)
-  - - '1'
+    - F5
+    - F4
+    - F3
+    - F2
+    - F1
+  - - '='
+    - '1'
     - '2'
     - '3'
+    - .
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - F20
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {type: held}
-    - {t: BACKSPACE, h: FUN}
-  - [LSHFT]
+    - {t: ▽, type: trans}
+  - ['0']
   SYMNUM:
   - [BT CLR, '!', '@', '#', $, '%', ^, '&', KP MULTIPLY, (]
   - - )
