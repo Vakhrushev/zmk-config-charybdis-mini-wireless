@@ -89,7 +89,7 @@
             bindings = <
 &trans  &trans  &trans    &kp UP     &trans     &trans          &kp MINUS       &kp N7          &kp N8          &kp N9  &kp SLASH    &kp BSPC
 &trans  &trans  &kp LEFT  &kp DOWN   &kp RIGHT  &trans          &kp PLUS        &kp N4          &kp N5          &kp N6  &kp ASTRK    &kp EQUAL
-&trans  &kp F5  &kp F4    &kp F3     &kp F2     &kp F1          &kp NO          &kp N1          &kp N2          &kp N3  &kp DOT      &trans
+&trans  &kp F5  &kp F4    &kp F3     &kp F2     &kp F1          &kp N0          &kp N1          &kp N2          &kp N3  &kp DOT      &trans
                           &trans     &trans     &trans          &trans          &kp RET
             >;
         };
