@@ -93,13 +93,13 @@
 &trans  &trans  &trans    &kp UP     &trans     &trans          &kp MINUS       &kp N7          &kp N8          &kp N9  &kp SLASH    &kp BSPC
 &trans  &trans  &kp LEFT  &kp DOWN   &kp RIGHT  &trans          &kp PLUS        &kp N4          &kp N5          &kp N6  &kp ASTRK    &kp EQUAL
 &trans  &kp F5  &kp F4    &kp F3     &kp F2     &kp F1          &kp N0          &kp N1          &kp N2          &kp N3  &kp DOT      &trans
-                          &trans     &trans     &trans          &trans          &trans
+                          &trans     &trans     &trans          &mo 3           &trans
             >;
         };
 
         SYMNUM {
             bindings = <
-&bt BT_CLR  &kp EXCL      &kp AT       &kp HASH    &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS                 &kp KP_MULTIPLY   &kp LPAR              &kp RPAR              &kp DEL
+&trans      &kp EXCL      &kp AT       &kp HASH    &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS                 &kp KP_MULTIPLY   &kp LPAR              &kp RPAR              &kp DEL
 &trans      &trans        &bt BT_PRV   &bt BT_NXT  &trans    &trans       &kp UNDER  &u_mt RIGHT_SHIFT EQUAL  &u_mt RCTRL LBKT  &u_mt RIGHT_ALT RBKT  &u_mt RIGHT_GUI BSLH  &kp GRAVE
 &trans      &out OUT_TOG  &bootloader  &trans      &trans    &trans       &kp MINUS  &kp PLUS                 &kp LBRC          &kp RBRC              &kp PIPE              &kp TILDE
                                        &trans      &trans    &mo 3        &trans     &trans
