@@ -227,11 +227,15 @@ layers:
 combos:
 - p: [19, 20]
   k: '&mkp LCLK'
+  l: [BASE]
 - p: [20, 21]
   k: '&mkp RCLK'
+  l: [BASE]
 - p: [21, 22]
   k: '&mkp MCLK'
+  l: [BASE]
 - p: [8, 9]
   k: DELETE
 - p: [17, 18]
   k: CAPS
+  l: [BASE]
