@@ -80,9 +80,9 @@ layers:
     - DEL
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - Sft+ 9
+    - '&open_col'
     - KP EQUAL
-    - Sft+ 0
+    - '&close_col'
     - {t: ▽, type: trans}
     - _
     - {t: '=', h: RIGHT SHIFT}
