@@ -4,10 +4,10 @@ layers:
   - - P
     - BSPC
     - TAB
-    - {t: A, h: LEFT GUI}
-    - {t: S, h: LEFT ALT}
+    - {t: A, h: LGUI}
+    - {t: S, h: LALT}
     - {t: D, h: LCTRL}
-    - {t: F, h: LEFT SHIFT}
+    - {t: F, h: LSHIFT}
     - G
     - H
     - {t: J, h: LEFT SHIFT}
@@ -47,7 +47,7 @@ layers:
   - - '5'
     - '6'
     - KP MULTIPLY
-    - KP COMMA
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - F5
     - F4
@@ -66,44 +66,35 @@ layers:
     - FUN
   - - {t: ▽, type: trans}
   SYMNUM:
-  - - {t: ▽, type: trans}
-    - Alt+ Z
-    - Alt+ Q
-    - Alt+ D
-    - Alt+ W
-    - Alt+ X
-    - ^
-    - '&'
-    - KP MULTIPLY
-    - (
-  - - )
+  - [Alt+ T, Alt+ Z, Alt+ Q, Alt+ D, Alt+ W, Alt+ X, Alt+ Y, \, Alt+ I, '']
+  - - ''
     - DEL
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - Sft+ 9
+    - (
     - KP EQUAL
-    - Sft+ 0
+    - )
     - {t: ▽, type: trans}
-    - _
-    - {t: '=', h: RIGHT SHIFT}
-  - - {t: '[', h: RCTRL}
-    - {t: ']', h: RIGHT ALT}
-    - {t: \, h: RIGHT GUI}
-    - '`'
+    - Alt+ H
+    - Alt+ J
+  - - Alt+ K
+    - '!'
+    - ''
+    - ''
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - Alt+ A
     - {t: ▽, type: trans}
     - Alt+ S
     - {t: ▽, type: trans}
-  - - '-'
-    - +
-    - '{'
-    - '}'
-    - '|'
-    - '~'
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+  - - Alt+ F
+    - Alt+ V
+    - Alt+ C
+    - Alt+ N
+    - ''
+    - ''
+    - Alt+ C
+    - Alt+ V
     - FUN
     - {type: held}
   - - {t: ▽, type: trans}
@@ -127,13 +118,13 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - OUT TOG
-    - PLAY PAUSE
-  - - VOLUME DOWN
-    - VOLUME UP
-    - MUTE
-    - LALT
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - '&bootloader'
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -142,8 +133,8 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
     - '&bootloader'
-    - {t: BASE, h: toggle}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {type: held}
@@ -163,8 +154,8 @@ layers:
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - BRI INC
+    - PLAY PAUSE
+    - VOLUME UP
     - {type: held}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -175,8 +166,8 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - BRI DEC
+    - MUTE
+    - VOLUME DOWN
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}

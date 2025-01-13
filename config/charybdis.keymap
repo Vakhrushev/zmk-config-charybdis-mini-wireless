@@ -69,46 +69,46 @@
 
         BASE {
             bindings = <
-&kp ESC  &kp Q             &kp W             &kp E          &kp R               &kp T    &kp Y  &kp U               &kp I          &kp O              &kp P                 &kp BSPC
-&kp TAB  &u_mt LEFT_GUI A  &u_mt LEFT_ALT S  &u_mt LCTRL D  &u_mt LEFT_SHIFT F  &kp G    &kp H  &u_mt LEFT_SHIFT J  &u_mt RCTRL K  &u_mt RIGHT_ALT L  &u_mt RIGHT_GUI SEMI  &kp APOS
-&mo 4    &kp Z             &kp X             &kp C          &kp V               &kp B    &kp N  &kp M               &kp COMMA      &kp DOT            &kp FSLH              &mo 4
-                                             &kp LGUI       &kp SPACE           &mo 1    &mo 2  &kp RET
+&kp ESC  &kp Q         &kp W         &kp E          &kp R               &kp T           &kp Y  &kp U               &kp I          &kp O              &kp P                 &kp BSPC
+&kp TAB  &u_mt LGUI A  &u_mt LALT S  &u_mt LCTRL D  &u_mt LSHIFT F      &kp G           &kp H  &u_mt LEFT_SHIFT J  &u_mt RCTRL K  &u_mt RIGHT_ALT L  &u_mt RIGHT_GUI SEMI  &kp APOS
+&mo 4    &kp Z         &kp X         &kp C          &kp V               &kp B           &kp N  &kp M               &kp COMMA      &kp DOT            &kp FSLH              &mo 4
+                                     &kp LGUI       &kp SPACE           &mo 1           &mo 2  &kp RET
             >;
         };
 
         NAV {
             bindings = <
-&trans  &trans  &trans    &kp UP     &trans     &trans          &kp KP_MINUS       &kp N7          &kp N8       &kp N9  &kp KP_DIVIDE      &kp BSPC
-&trans  &trans  &kp LEFT  &kp DOWN   &kp RIGHT  &kp CAPS        &kp KP_PLUS        &kp N4          &kp N5       &kp N6  &kp KP_MULTIPLY    &kp KP_COMMA
-&trans  &kp F5  &kp F4    &kp F3     &kp F2     &kp F1          &kp N0             &kp N1          &kp N2       &kp N3  &kp KP_EQUAL       &kp KP_DOT
-                          &trans     &trans     &trans          &mo 3              &trans
+&trans  &trans  &trans    &kp UP     &trans     &trans               &kp KP_MINUS       &kp N7          &kp N8       &kp N9  &kp KP_DIVIDE      &kp BSPC
+&trans  &trans  &kp LEFT  &kp DOWN   &kp RIGHT  &kp CAPS             &kp KP_PLUS        &kp N4          &kp N5       &kp N6  &kp KP_MULTIPLY    &trans
+&trans  &kp F5  &kp F4    &kp F3     &kp F2     &kp F1               &kp N0             &kp N1          &kp N2       &kp N3  &kp KP_EQUAL       &kp KP_DOT
+                          &trans     &trans     &trans               &mo 3              &trans
             >;
         };
 
         SYMNUM {
             bindings = <
-&trans      &kp LA(Z)     &kp LA(Q)    &kp LA(D)    &kp LA(W)  &kp LA(X)    &kp CARET  &kp AMPS                 &kp KP_MULTIPLY   &kp LPAR              &kp RPAR              &kp DEL
-&trans      &trans        &kp LS(N9)   &kp KP_EQUAL &kp LS(N0) &trans       &kp UNDER  &u_mt RIGHT_SHIFT EQUAL  &u_mt RCTRL LBKT  &u_mt RIGHT_ALT RBKT  &u_mt RIGHT_GUI BSLH  &kp GRAVE
-&trans      &trans        &kp LA(A)    &trans       &kp LA(S)  &trans       &kp MINUS  &kp PLUS                 &kp LBRC          &kp RBRC              &kp PIPE              &kp TILDE
-                                       &trans       &trans     &mo 3        &trans     &trans
+&kp LA(T)   &kp LA(Z)     &kp LA(Q)    &kp LA(D)    &kp LA(W)        &kp LA(X)          &kp LA(Y)  &kp BSLH     &kp LA(I)   &none              &none  &kp DEL
+&trans      &trans        &kp LPAR     &kp KP_EQUAL &kp RPAR         &trans             &kp LA(H)  &kp LA(J)    &kp LA(K)   &kp EXCLAMATION    &none  &none
+&trans      &trans        &kp LA(A)    &trans       &kp LA(S)        &trans             &kp LA(F)  &kp LA(V)    &kp LA(C)   &kp LA(N)          &none  &none
+                                       &kp LA(C)    &kp LA(V)        &mo 3              &trans     &trans
             >;
         };
 
         FUN {
             bindings = <
-&trans  &trans       &trans  &trans  &trans   &trans     &bt BT_SEL 0  &bt BT_SEL 1      &bt BT_SEL 2       &bt BT_SEL 3     &bt BT_SEL 4  &bt BT_CLR
-&trans  &trans       &trans  &trans  &trans   &trans     &out OUT_TOG  &kp K_PLAY_PAUSE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_MUTE    &kp LALT
-&trans  &bootloader  &trans  &trans  &trans   &trans     &trans        &trans            &trans             &trans           &bootloader        &to 0
-                             &trans  &trans   &trans     &trans        &trans
+&trans       &trans       &trans  &trans  &trans   &trans                               &bt BT_SEL 0  &bt BT_SEL 1      &bt BT_SEL 2       &bt BT_SEL 3     &bt BT_SEL 4  &bt BT_CLR
+&trans       &trans       &trans  &trans  &trans   &trans                               &out OUT_TOG  &trans            &trans             &trans           &trans        &trans
+&bootloader  &trans       &trans  &trans  &trans   &trans                               &trans        &trans            &trans             &trans           &trans        &bootloader
+                                  &trans  &trans   &trans                               &trans        &trans
             >;
         };
 
         SCROLL {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6    &kp F7  &kp F8  &kp F9  &kp F10 &kp F11 &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &kp C_BRI_INC
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &kp C_BRI_DEC
-                        &trans  &trans  &trans    &trans  &trans
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6                                          &kp F7  &kp F8  &kp F9  &kp F10 &kp F11 &kp F12
+&trans  &trans  &trans  &trans  &trans  &trans                                          &trans  &trans  &trans  &trans  &kp K_PLAY_PAUSE  &kp C_VOLUME_UP
+&trans  &trans  &trans  &trans  &trans  &trans                                          &trans  &trans  &trans  &trans  &kp C_MUTE        &kp C_VOLUME_DOWN
+                        &trans  &trans  &trans                                          &trans  &trans
             >;
         };
     };
