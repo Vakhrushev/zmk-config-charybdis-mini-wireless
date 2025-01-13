@@ -14,7 +14,7 @@ layers:
   - - {t: K, h: RCTRL}
     - {t: L, h: RIGHT ALT}
     - {t: ;, h: RIGHT GUI}
-    - {t: '[', h: ''''}
+    - {t: '''', h: '['}
     - SCROLL
     - Z
     - X
@@ -22,7 +22,7 @@ layers:
     - V
     - B
   - - N
-    - {t: ']', h: M}
+    - {t: M, h: ']'}
     - ','
     - .
     - /
