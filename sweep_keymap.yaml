@@ -14,14 +14,23 @@ layers:
   - - {t: K, h: RCTRL}
     - {t: L, h: RIGHT ALT}
     - {t: ;, h: RIGHT GUI}
-    - ''''
+    - {t: '[', h: ''''}
     - SCROLL
     - Z
     - X
     - C
     - V
     - B
-  - [N, M, ',', ., '[', SCROLL, LGUI, SPACE, NAV, SYMNUM]
+  - - N
+    - {t: ']', h: M}
+    - ','
+    - .
+    - FLSH
+    - SCROLL
+    - LGUI
+    - SPACE
+    - NAV
+    - SYMNUM
   - [RET]
   NAV:
   - - {t: ▽, type: trans}
