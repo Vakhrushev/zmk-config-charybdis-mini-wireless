@@ -14,23 +14,14 @@ layers:
   - - {t: K, h: RCTRL}
     - {t: L, h: RIGHT ALT}
     - {t: ;, h: RIGHT GUI}
-    - {t: '''', h: '['}
+    - ''''
     - SCROLL
     - Z
     - X
     - C
     - V
     - B
-  - - N
-    - {t: M, h: ']'}
-    - ','
-    - .
-    - /
-    - SCROLL
-    - LGUI
-    - SPACE
-    - NAV
-    - SYMNUM
+  - [N, M, ',', ., /, SCROLL, LGUI, SPACE, NAV, SYMNUM]
   - [RET]
   NAV:
   - - {t: ▽, type: trans}
@@ -191,4 +182,10 @@ combos:
   l: [BASE]
 - p: [21, 22]
   k: '&mkp MCLK'
+  l: [BASE]
+- p: [22, 23]
+  k: '&mkp LBKT'
+  l: [BASE]
+- p: [31, 32]
+  k: '&mkp RBKT'
   l: [BASE]

@@ -32,7 +32,19 @@
             key-positions = <21 22>;
             layers = <0>;
         };
+
+        letterh {
+            bindings = <&mkp LBKT>;
+            key-positions = <22 23>;
+            layers = <0>;
+        };
+        lettersign {
+            bindings = <&mkp RBKT>;
+            key-positions = <31 32>;
+            layers = <0>;
+        };
     };
+
 
     behaviors {
         u_mt: u_mt {
@@ -70,8 +82,8 @@
         BASE {
             bindings = <
 &kp ESC  &kp Q         &kp W         &kp E          &kp R               &kp T           &kp Y  &kp U               &kp I          &kp O              &kp P                 &kp BSPC
-&kp TAB  &u_mt LGUI A  &u_mt LALT S  &u_mt LCTRL D  &u_mt LSHIFT F      &kp G           &kp H  &u_mt LEFT_SHIFT J  &u_mt RCTRL K  &u_mt RIGHT_ALT L  &u_mt RIGHT_GUI SEMI  &u_mt LBKT APOS
-&mo 4    &kp Z         &kp X         &kp C          &kp V               &kp B           &kp N  &u_mt RBKT M        &kp COMMA      &kp DOT            &kp  FSLH             &mo 4
+&kp TAB  &u_mt LGUI A  &u_mt LALT S  &u_mt LCTRL D  &u_mt LSHIFT F      &kp G           &kp H  &u_mt LEFT_SHIFT J  &u_mt RCTRL K  &u_mt RIGHT_ALT L  &u_mt RIGHT_GUI SEMI  &kp APOS
+&mo 4    &kp Z         &kp X         &kp C          &kp V               &kp B           &kp N  &kp M               &kp COMMA      &kp DOT            &kp  FSLH             &mo 4
                                      &kp LGUI       &kp SPACE           &mo 1           &mo 2  &kp RET
             >;
         };
