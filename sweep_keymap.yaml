@@ -68,9 +68,9 @@ layers:
   SYMNUM:
   - - {t: ▽, type: trans}
     - '!'
-    - Alt+ q
-    - Alt+ d
-    - Alt+ w
+    - Alt+ Q
+    - Alt+ D
+    - Alt+ W
     - '%'
     - ^
     - '&'
@@ -92,9 +92,9 @@ layers:
     - '`'
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - Alt+ a
+    - Alt+ A
     - {t: ▽, type: trans}
-    - Alt+ s
+    - Alt+ S
     - {t: ▽, type: trans}
   - - '-'
     - +

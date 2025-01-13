@@ -98,10 +98,10 @@
 
         SYMNUM {
             bindings = <
-&trans      &kp EXCL      &kp LA(q)    &kp LA(d)    &kp LA(w)  &kp PRCNT    &kp CARET  &kp AMPS                 &kp KP_MULTIPLY   &kp LPAR              &kp RPAR              &kp DEL
+&trans      &kp EXCL      &kp LA(Q)    &kp LA(D)    &kp LA(W)  &kp PRCNT    &kp CARET  &kp AMPS                 &kp KP_MULTIPLY   &kp LPAR              &kp RPAR              &kp DEL
 &trans      &trans        &kp LS(9)    &kp KP_EQUAL &kp LS(0)  &trans       &kp UNDER  &u_mt RIGHT_SHIFT EQUAL  &u_mt RCTRL LBKT  &u_mt RIGHT_ALT RBKT  &u_mt RIGHT_GUI BSLH  &kp GRAVE
-&trans      &trans        &kp LA(a)    &trans       &kp LA(s)  &trans       &kp MINUS  &kp PLUS                 &kp LBRC          &kp RBRC              &kp PIPE              &kp TILDE
-                                       &trans       &trans    &mo 3        &trans     &trans
+&trans      &trans        &kp LA(A)    &trans       &kp LA(S)  &trans       &kp MINUS  &kp PLUS                 &kp LBRC          &kp RBRC              &kp PIPE              &kp TILDE
+                                       &trans       &trans     &mo 3         &trans     &trans
             >;
         };
 
