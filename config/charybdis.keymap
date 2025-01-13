@@ -34,12 +34,12 @@
         };
 
         letterh {
-            bindings = <&mkp LBKT>;
+            bindings = <&kp LBKT>;
             key-positions = <22 23>;
             layers = <0>;
         };
         lettersign {
-            bindings = <&mkp RBKT>;
+            bindings = <&kp RBKT>;
             key-positions = <31 32>;
             layers = <0>;
         };

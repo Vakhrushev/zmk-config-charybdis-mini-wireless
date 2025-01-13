@@ -184,8 +184,8 @@ combos:
   k: '&mkp MCLK'
   l: [BASE]
 - p: [22, 23]
-  k: '&mkp LBKT'
+  k: '['
   l: [BASE]
 - p: [31, 32]
-  k: '&mkp RBKT'
+  k: ']'
   l: [BASE]
