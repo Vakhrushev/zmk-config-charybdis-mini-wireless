@@ -314,8 +314,8 @@ path.combo {
 </text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="676" y="71" width="28" height="26" class="combo"/>
-<text x="690" y="84" class="combo tap">[</text>
+<rect rx="6" ry="6" x="556" y="127" width="28" height="26" class="combo"/>
+<text x="570" y="140" class="combo tap">[</text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="496" y="127" width="28" height="26" class="combo"/>
