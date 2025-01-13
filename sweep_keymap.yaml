@@ -66,14 +66,23 @@ layers:
     - FUN
   - - {t: ▽, type: trans}
   SYMNUM:
-  - [BT CLR, '!', '@', '#', $, '%', ^, '&', KP MULTIPLY, (]
+  - - {t: ▽, type: trans}
+    - '!'
+    - Alt+ q
+    - Alt+ d
+    - Alt+ w
+    - '%'
+    - ^
+    - '&'
+    - KP MULTIPLY
+    - (
   - - )
     - DEL
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - BT PRV
-    - BT NXT
-    - {t: ▽, type: trans}
+    - Sft+ 9
+    - KP EQUAL
+    - Sft+ 0
     - {t: ▽, type: trans}
     - _
     - {t: '=', h: RIGHT SHIFT}
@@ -82,10 +91,10 @@ layers:
     - {t: \, h: RIGHT GUI}
     - '`'
     - {t: ▽, type: trans}
-    - OUT TOG
-    - '&bootloader'
     - {t: ▽, type: trans}
+    - Alt+ a
     - {t: ▽, type: trans}
+    - Alt+ s
     - {t: ▽, type: trans}
   - - '-'
     - +
