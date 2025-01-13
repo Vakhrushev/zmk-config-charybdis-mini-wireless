@@ -82,7 +82,7 @@ layers:
     - {t: ▽, type: trans}
     - Sft+ 9
     - KP EQUAL
-    - (0)
+    - Sft+ 0
     - {t: ▽, type: trans}
     - _
     - {t: '=', h: RIGHT SHIFT}
