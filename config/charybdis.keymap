@@ -32,17 +32,6 @@
             key-positions = <21 22>;
             layers = <0>;
         };
-
-        Delete {
-            bindings = <&kp DELETE>;
-            key-positions = <8 9>;
-        };
-
-        CapsWord {
-            bindings = <&kp CAPS>;
-            key-positions = <17 18>;
-            layers = <0>;
-        };
     };
 
     behaviors {
@@ -90,7 +79,7 @@
         NAV {
             bindings = <
 &trans  &trans  &trans    &kp UP     &trans     &trans          &kp KP_MINUS       &kp N7          &kp N8       &kp N9  &kp KP_DIVIDE      &kp BSPC
-&trans  &trans  &kp LEFT  &kp DOWN   &kp RIGHT  &trans          &kp KP_PLUS        &kp N4          &kp N5       &kp N6  &kp KP_MULTIPLY    &kp KP_EQUAL
+&trans  &trans  &kp LEFT  &kp DOWN   &kp RIGHT  &kp CAPS        &kp KP_PLUS        &kp N4          &kp N5       &kp N6  &kp KP_MULTIPLY    &kp KP_EQUAL
 &trans  &kp F5  &kp F4    &kp F3     &kp F2     &kp F1          &kp N0             &kp N1          &kp N2       &kp N3  &kp KP_DOT         &trans
                           &trans     &trans     &trans          &mo 3              &trans
             >;
