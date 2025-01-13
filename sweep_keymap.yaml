@@ -47,7 +47,7 @@ layers:
   - - '5'
     - '6'
     - KP MULTIPLY
-    - KP EQUAL
+    - KP COMM
     - {t: ▽, type: trans}
     - F5
     - F4
@@ -58,8 +58,8 @@ layers:
     - '1'
     - '2'
     - '3'
+    - KP EQUAL
     - KP DOT
-    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {type: held}
@@ -164,7 +164,7 @@ layers:
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - BRI INC
     - {type: held}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -176,7 +176,7 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - BRI DEC
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
