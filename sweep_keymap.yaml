@@ -30,11 +30,11 @@ layers:
     - UP
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - '-'
+    - KP MINUS
     - '7'
     - '8'
     - '9'
-  - - /
+  - - KP DIVIDE
     - BSPC
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -42,12 +42,12 @@ layers:
     - DOWN
     - RIGHT
     - {t: ▽, type: trans}
-    - +
+    - KP PLUS
     - '4'
   - - '5'
     - '6'
-    - '*'
-    - '='
+    - KP MULTIPLY
+    - KP EQUAL
     - {t: ▽, type: trans}
     - F5
     - F4
@@ -58,7 +58,7 @@ layers:
     - '1'
     - '2'
     - '3'
-    - .
+    - KP DOT
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
