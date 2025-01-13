@@ -2,7 +2,7 @@
   "description": "russian",
   "manipulators": [
     {
-      "description": "-----------------------------------------x------------------------------------------------------",
+      "description": "----------------------------------------->------------------------------------------------------",
       "type": "basic",
       "conditions": [{"input_sources": [{ "language": "en" }],"type": "input_source_if"}],
       "from": {
@@ -21,7 +21,7 @@
       "conditions": [{"input_sources": [{ "language": "ru" }],"type": "input_source_if"}],
       "parameters": {
         "basic.to_if_alone_timeout_milliseconds": 10,
-        "basic.to_if_held_down_threshold_milliseconds": 10
+        "basic.to_if_held_down_threshold_milliseconds": 50
       },
       "to": { "select_input_source": { "input_source_id": "com.apple.keylayout.ABC" } },
       "to_after_key_up": { "select_input_source": { "input_source_id": "com.apple.keylayout.RussianWin" } },
@@ -32,6 +32,7 @@
       "to_if_held_down": [
         {
           "key_code": "period",
+          "halt": false,
           "modifiers": [ "shift" ]
         }
       ]
@@ -56,7 +57,7 @@
       "conditions": [{"input_sources": [{ "language": "ru" }],"type": "input_source_if"}],
       "parameters": {
         "basic.to_if_alone_timeout_milliseconds": 10,
-        "basic.to_if_held_down_threshold_milliseconds": 10
+        "basic.to_if_held_down_threshold_milliseconds": 50
       },
       "to": { "select_input_source": { "input_source_id": "com.apple.keylayout.ABC" } },
       "to_after_key_up": { "select_input_source": { "input_source_id": "com.apple.keylayout.RussianWin" } },
@@ -67,6 +68,7 @@
       "to_if_held_down": [
         {
           "key_code": "comma",
+          "halt": false,
           "modifiers": [ "shift" ]
         }
       ]
@@ -91,7 +93,7 @@
       "conditions": [{"input_sources": [{ "language": "ru" }],"type": "input_source_if"}],
       "parameters": {
         "basic.to_if_alone_timeout_milliseconds": 10,
-        "basic.to_if_held_down_threshold_milliseconds": 10
+        "basic.to_if_held_down_threshold_milliseconds": 50
       },
       "to": { "select_input_source": { "input_source_id": "com.apple.keylayout.ABC" } },
       "to_after_key_up": { "select_input_source": { "input_source_id": "com.apple.keylayout.RussianWin" } },
@@ -102,6 +104,7 @@
       "to_if_held_down": [
         {
           "key_code": "semicolon",
+          "halt": false,
           "modifiers": [ "shift" ]
         }
       ]
@@ -125,7 +128,7 @@
       "conditions": [{"input_sources": [{ "language": "ru" }],"type": "input_source_if"}],
       "parameters": {
         "basic.to_if_alone_timeout_milliseconds": 10,
-        "basic.to_if_held_down_threshold_milliseconds": 10
+        "basic.to_if_held_down_threshold_milliseconds": 50
       },
       "to": { "select_input_source": { "input_source_id": "com.apple.keylayout.ABC" } },
       "to_after_key_up": { "select_input_source": { "input_source_id": "com.apple.keylayout.RussianWin" } },
@@ -135,6 +138,7 @@
       },
       "to_if_held_down": [
         {
+          "halt": false,
           "key_code": "semicolon"
         }
       ]
@@ -159,17 +163,18 @@
       "conditions": [{"input_sources": [{ "language": "ru" }],"type": "input_source_if"}],
       "parameters": {
         "basic.to_if_alone_timeout_milliseconds": 10,
-        "basic.to_if_held_down_threshold_milliseconds": 10
+        "basic.to_if_held_down_threshold_milliseconds": 50
       },
       "to": { "select_input_source": { "input_source_id": "com.apple.keylayout.ABC" } },
       "to_after_key_up": { "select_input_source": { "input_source_id": "com.apple.keylayout.RussianWin" } },
       "from": {
-        "key_code": "s",
+        "key_code": "a",
         "modifiers": { "mandatory": ["option"] }
       },
       "to_if_held_down": [
         {
           "key_code": "open_bracket",
+          "halt": false,
           "modifiers": [ "shift" ]
         }
       ]
@@ -194,7 +199,7 @@
       "conditions": [{"input_sources": [{ "language": "ru" }],"type": "input_source_if"}],
       "parameters": {
         "basic.to_if_alone_timeout_milliseconds": 10,
-        "basic.to_if_held_down_threshold_milliseconds": 10
+        "basic.to_if_held_down_threshold_milliseconds": 50
       },
       "to": { "select_input_source": { "input_source_id": "com.apple.keylayout.ABC" } },
       "to_after_key_up": { "select_input_source": { "input_source_id": "com.apple.keylayout.RussianWin" } },
@@ -205,6 +210,7 @@
       "to_if_held_down": [
         {
           "key_code": "close_bracket",
+          "halt": false,
           "modifiers": [ "shift" ]
         }
         ]
@@ -242,11 +248,11 @@
       },
       "parameters": {
         "basic.to_if_alone_timeout_milliseconds": 10,
-        "basic.to_if_held_down_threshold_milliseconds": 10
+        "basic.to_if_held_down_threshold_milliseconds": 50
       },
       "to": { "select_input_source": { "input_source_id": "com.apple.keylayout.ABC" } },
       "to_after_key_up": { "select_input_source": { "input_source_id": "com.apple.keylayout.RussianWin" } },
-      "to_if_held_down": [{ "key_code": "open_bracket" }],
+      "to_if_held_down": [{ "key_code": "open_bracket", "halt": false }],
       "type": "basic"
     },
     {
@@ -264,7 +270,7 @@
       "conditions": [{"input_sources": [{ "language": "ru" }],"type": "input_source_if"}],
       "parameters": {
         "basic.to_if_alone_timeout_milliseconds": 10,
-        "basic.to_if_held_down_threshold_milliseconds": 10
+        "basic.to_if_held_down_threshold_milliseconds": 50
       },
       "to": { "select_input_source": { "input_source_id": "com.apple.keylayout.ABC" } },
       "to_after_key_up": { "select_input_source": { "input_source_id": "com.apple.keylayout.RussianWin" } },
@@ -272,7 +278,7 @@
         "key_code": "w",
         "modifiers": { "mandatory": ["option"] }
       },
-      "to_if_held_down": [{ "key_code": "close_bracket" }]
+      "to_if_held_down": [{ "key_code": "close_bracket", "halt": false }]
     }
   ]
 }

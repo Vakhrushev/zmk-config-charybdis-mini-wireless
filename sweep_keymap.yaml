@@ -66,10 +66,10 @@ layers:
     - FUN
   - - {t: ▽, type: trans}
   SYMNUM:
-  - [Alt+ T, Alt+ Z, Alt+ Q, Alt+ D, Alt+ W, Alt+ X, Alt+ Y, \, Alt+ I, '']
+  - [Alt+ T, Alt+ Z, Alt+ Q, Alt+ D, Alt+ W, Alt+ X, Alt+ Y, \, Alt+ I, Alt+ O]
   - - ''
     - DEL
-    - {t: ▽, type: trans}
+    - '%'
     - {t: ▽, type: trans}
     - (
     - KP EQUAL
@@ -79,19 +79,19 @@ layers:
     - Alt+ J
   - - Alt+ K
     - '!'
-    - ''
+    - Alt+ L
     - ''
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - Alt+ A
-    - {t: ▽, type: trans}
+    - Alt+ P
     - Alt+ S
     - {t: ▽, type: trans}
   - - Alt+ F
     - Alt+ V
     - Alt+ C
     - Alt+ N
-    - ''
+    - Alt+ M
     - ''
     - Alt+ C
     - Alt+ V

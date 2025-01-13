@@ -5,7 +5,7 @@
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/outputs.h>
 
-#define U_TAPPING_TERM 200
+#define U_TAPPING_TERM 300
 
 / {
     chosen { zmk,matrix_transform = &default_transform; };
@@ -87,9 +87,9 @@
 
         SYMNUM {
             bindings = <
-&kp LA(T)   &kp LA(Z)     &kp LA(Q)    &kp LA(D)    &kp LA(W)        &kp LA(X)          &kp LA(Y)  &kp BSLH     &kp LA(I)   &none              &none  &kp DEL
-&trans      &trans        &kp LPAR     &kp KP_EQUAL &kp RPAR         &trans             &kp LA(H)  &kp LA(J)    &kp LA(K)   &kp EXCLAMATION    &none  &none
-&trans      &trans        &kp LA(A)    &trans       &kp LA(S)        &trans             &kp LA(F)  &kp LA(V)    &kp LA(C)   &kp LA(N)          &none  &none
+&kp LA(T)   &kp LA(Z)     &kp LA(Q)    &kp LA(D)    &kp LA(W)        &kp LA(X)          &kp LA(Y)  &kp BSLH     &kp LA(I)   &kp LA(O)          &none  &kp DEL
+&kp PERCENT &trans        &kp LPAR     &kp KP_EQUAL &kp RPAR         &trans             &kp LA(H)  &kp LA(J)    &kp LA(K)   &kp EXCLAMATION    &kp LA(L)  &none
+&trans      &trans        &kp LA(A)    &kp LA(P)    &kp LA(S)        &trans             &kp LA(F)  &kp LA(V)    &kp LA(C)   &kp LA(N)          &kp LA(M)  &none
                                        &kp LA(C)    &kp LA(V)        &mo 3              &trans     &trans
             >;
         };
