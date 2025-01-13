@@ -51,12 +51,14 @@
             bindings = <&kp N0>;
             label = ")"
             mods = <(MOD_LSFT)>;
+            display-name = ")";
         };
         open_col: open_col {
             compatible = "zmk,behavior-key-press";
             bindings = <&kp N9>;
             label = "("
             mods = <(MOD_LSFT)>;
+            display-name = "(";
         };
 
         u_mt: u_mt {
