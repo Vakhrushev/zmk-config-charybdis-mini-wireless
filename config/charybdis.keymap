@@ -46,21 +46,6 @@
     };
 
     behaviors {
-        close_col: close_col {
-            compatible = "zmk,behavior-key-press";
-            bindings = <&kp N0>;
-            label = ")";
-            mods = <(MOD_LSFT)>;
-            display-name = ")";
-        };
-        open_col: open_col {
-            compatible = "zmk,behavior-key-press";
-            bindings = <&kp N9>;
-            label = "(";
-            mods = <(MOD_LSFT)>;
-            display-name = "(";
-        };
-
         u_mt: u_mt {
             compatible = "zmk,behavior-hold-tap";
             label = "u_mt";
@@ -113,25 +98,25 @@
 
         SYMNUM {
             bindings = <
-&trans      &kp EXCL      &kp LA(Q)    &kp LA(D)    &kp LA(W)  &kp PRCNT    &kp CARET  &kp AMPS                 &kp KP_MULTIPLY   &kp LPAR              &kp RPAR              &kp DEL
-&trans      &trans        &open_col   &kp KP_EQUAL &close_col  &trans       &kp UNDER  &u_mt RIGHT_SHIFT EQUAL  &u_mt RCTRL LBKT  &u_mt RIGHT_ALT RBKT  &u_mt RIGHT_GUI BSLH  &kp GRAVE
+&trans      &kp LA(Z)     &kp LA(Q)    &kp LA(D)    &kp LA(W)  &kp LA(X)    &kp CARET  &kp AMPS                 &kp KP_MULTIPLY   &kp LPAR              &kp RPAR              &kp DEL
+&trans      &trans        &kp LS(N9)   &kp KP_EQUAL &kp (N0)   &trans       &kp UNDER  &u_mt RIGHT_SHIFT EQUAL  &u_mt RCTRL LBKT  &u_mt RIGHT_ALT RBKT  &u_mt RIGHT_GUI BSLH  &kp GRAVE
 &trans      &trans        &kp LA(A)    &trans       &kp LA(S)  &trans       &kp MINUS  &kp PLUS                 &kp LBRC          &kp RBRC              &kp PIPE              &kp TILDE
-                                       &trans       &trans     &mo 3         &trans     &trans
+                                       &trans       &trans     &mo 3        &trans     &trans
             >;
         };
 
         FUN {
             bindings = <
-&trans  &trans   &kp F1  &kp F2   &kp F3   &kp F4     &bt BT_SEL 0  &bt BT_SEL 1      &bt BT_SEL 2       &bt BT_SEL 3     &bt BT_SEL 4  &bt BT_CLR
-&trans  &kp DEL  &kp F5  &kp F6   &kp F7   &kp F8     &out OUT_TOG  &kp K_PLAY_PAUSE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_MUTE    &kp LALT
-&trans  &bootloader   &kp F9  &kp F10  &kp F11  &kp F12    &trans        &trans            &trans             &trans           &bootloader        &to 0
-                         &trans   &trans   &trans     &trans        &trans
+&trans  &trans       &trans  &trans  &trans   &trans     &bt BT_SEL 0  &bt BT_SEL 1      &bt BT_SEL 2       &bt BT_SEL 3     &bt BT_SEL 4  &bt BT_CLR
+&trans  &trans       &trans  &trans  &trans   &trans     &out OUT_TOG  &kp K_PLAY_PAUSE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_MUTE    &kp LALT
+&trans  &bootloader  &trans  &trans  &trans   &trans     &trans        &trans            &trans             &trans           &bootloader        &to 0
+                             &trans  &trans   &trans     &trans        &trans
             >;
         };
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6    &kp F7  &kp F8  &kp F9  &kp F10 &kp F11 &kp F12
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans
