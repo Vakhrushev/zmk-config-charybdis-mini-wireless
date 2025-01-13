@@ -25,7 +25,7 @@ layers:
     - {t: ']', h: M}
     - ','
     - .
-    - FLSH
+    - /
     - SCROLL
     - LGUI
     - SPACE
