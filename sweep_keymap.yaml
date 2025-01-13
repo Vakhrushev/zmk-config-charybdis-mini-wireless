@@ -70,7 +70,7 @@ layers:
   - - ''
     - DEL
     - '%'
-    - {t: ▽, type: trans}
+    - Alt+ 1
     - (
     - KP EQUAL
     - )
@@ -81,8 +81,8 @@ layers:
     - '!'
     - Alt+ L
     - ''
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - Alt+ 3
+    - Alt+ 2
     - Alt+ A
     - Alt+ P
     - Alt+ S
