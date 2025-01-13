@@ -84,7 +84,7 @@ layers:
     - Alt+ 3
     - Alt+ 2
     - Alt+ A
-    - Alt+ P
+    - _
     - Alt+ S
     - {t: ▽, type: trans}
   - - Alt+ F
