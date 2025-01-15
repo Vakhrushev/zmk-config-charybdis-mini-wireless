@@ -67,26 +67,8 @@ layers:
   - - {t: ▽, type: trans}
   SYMNUM:
   - [Alt+ T, Alt+ Z, Alt+ Q, Alt+ D, Alt+ W, Alt+ X, Alt+ Y, \, Alt+ I, Alt+ O]
-  - - ''
-    - DEL
-    - '%'
-    - Alt+ 1
-    - (
-    - KP EQUAL
-    - )
-    - {t: ▽, type: trans}
-    - Alt+ H
-    - Alt+ J
-  - - Alt+ K
-    - ''
-    - '!'
-    - ''
-    - Alt+ 3
-    - Alt+ 2
-    - Alt+ A
-    - _
-    - Alt+ S
-    - {t: ▽, type: trans}
+  - ['', DEL, '%', Alt+ 1, (, KP EQUAL, ), Alt+ 5, Alt+ H, Alt+ J]
+  - [Alt+ K, '', '!', '', Alt+ 3, Alt+ 2, Alt+ A, _, Alt+ S, Alt+ 4]
   - - Alt+ F
     - Alt+ M
     - Alt+ C
@@ -163,26 +145,17 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - '&mkp LCLK'
+    - '&mkp RCLK'
     - {t: ▽, type: trans}
     - MUTE
     - VOLUME DOWN
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - '&mkp LCLK'
-  - ['&mkp RCLK']
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
 combos:
-- p: [19, 20]
-  k: '&mkp LCLK'
-  l: [BASE]
-- p: [20, 21]
-  k: '&mkp RCLK'
-  l: [BASE]
-- p: [21, 22]
-  k: '&mkp MCLK'
-  l: [BASE]
 - p: [32, 33]
   k: '['
   l: [BASE]
