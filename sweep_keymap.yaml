@@ -78,8 +78,8 @@ layers:
     - Alt+ H
     - Alt+ J
   - - Alt+ K
+    - ''
     - '!'
-    - Alt+ L
     - ''
     - Alt+ 3
     - Alt+ 2
@@ -88,13 +88,13 @@ layers:
     - Alt+ S
     - {t: ▽, type: trans}
   - - Alt+ F
-    - Alt+ V
-    - Alt+ C
-    - Alt+ N
     - Alt+ M
-    - ''
     - Alt+ C
     - Alt+ V
+    - Alt+ N
+    - ''
+    - trans
+    - {t: ▽, type: trans}
     - FUN
     - {type: held}
   - - {t: ▽, type: trans}
@@ -171,8 +171,8 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - {t: ▽, type: trans}
+    - '&mkp LCLK'
+  - ['&mkp RCLK']
 combos:
 - p: [19, 20]
   k: '&mkp LCLK'
