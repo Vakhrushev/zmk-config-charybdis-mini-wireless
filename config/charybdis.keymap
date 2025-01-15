@@ -102,7 +102,7 @@
 &kp LA(T)   &kp LA(Z)     &kp LA(Q)    &kp LA(D)         &kp LA(W)        &kp LA(X)     &kp LA(Y)  &kp BSLH     &kp LA(I)   &kp LA(O)          &none  &kp DEL
 &kp PERCENT &kp LA(N1)    &kp LPAR     &kp KP_EQUAL      &kp RPAR         &trans        &kp LA(H)  &kp LA(J)    &kp LA(K)   &none              &kp EXCLAMATION  &none
 &kp LA(N3)  &kp LA(N2)    &kp LA(A)    &kp UNDERSCORE    &kp LA(S)        &trans        &kp LA(F)  &kp LA(M)    &kp LA(C)   &kp LA(V)          &kp LA(N)  &none
-                                       &kp trans         &trans           &mo 3         &trans     &trans
+                                       &trans            &trans           &mo 3         &trans     &trans
             >;
         };
 

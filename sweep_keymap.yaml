@@ -93,7 +93,7 @@ layers:
     - Alt+ V
     - Alt+ N
     - ''
-    - trans
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - FUN
     - {type: held}
