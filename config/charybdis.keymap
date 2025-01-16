@@ -72,19 +72,19 @@
 
         NAV {
             bindings = <
-&trans  &trans  &trans    &kp UP     &trans     &trans               &kp KP_MINUS       &kp N7          &kp N8       &kp N9  &kp KP_DIVIDE      &kp BSPC
-&trans  &trans  &kp LEFT  &kp DOWN   &kp RIGHT  &kp CAPS             &kp KP_PLUS        &kp N4          &kp N5       &kp N6  &kp KP_MULTIPLY    &trans
-&trans  &kp F5  &kp F4    &kp F3     &kp F2     &kp F1               &kp N0             &kp N1          &kp N2       &kp N3  &kp KP_EQUAL       &kp KP_DOT
-                          &trans     &trans     &trans               &mo 3              &trans
+&trans  &kp HOME &mkp RCLK &kp UP     &mkp LCLK  &kp END                                &kp KP_MINUS       &kp N7          &kp N8       &kp N9  &kp KP_DIVIDE      &kp BSPC
+&trans  &trans   &kp LEFT  &kp DOWN   &kp RIGHT  &kp CAPS                               &kp KP_PLUS        &kp N4          &kp N5       &kp N6  &kp KP_MULTIPLY    &trans
+&trans  &kp F5   &kp F4    &kp F3     &kp F2     &kp F1                                 &kp N0             &kp N1          &kp N2       &kp N3  &kp KP_EQUAL       &kp KP_DOT
+                          &trans     &trans     &trans                                  &mo 3              &trans
             >;
         };
 
         SYMNUM {
             bindings = <
-&kp LA(T)   &kp LA(Z)     &kp LA(Q)    &kp LA(D)         &kp LA(W)        &kp LA(X)     &kp LA(Y)  &kp BSLH     &kp LA(I)   &kp LA(O)          &none  &kp DEL
-&kp PERCENT &kp LA(N1)    &kp LPAR     &kp KP_EQUAL      &kp RPAR         &kp LA(N5)    &kp LA(H)  &kp LA(J)    &kp LA(K)   &none              &kp EXCLAMATION  &none
-&kp LA(N3)  &kp LA(N2)    &kp LA(A)    &kp UNDERSCORE    &kp LA(S)        &kp LA(N4)    &kp LA(F)  &kp LA(M)    &kp LA(C)   &kp LA(V)          &kp LA(N)  &none
-                                       &trans            &trans           &mo 3         &trans     &trans
+&kp LA(T)   &kp LA(Z)     &kp LA(Q)    &kp LA(D)         &kp LA(W)   &kp LA(X)          &kp LA(Y)  &kp LA(I)    &kp BSLH    &kp LA(O)          &none            &kp DEL
+&kp PERCENT &kp LA(N1)    &kp LPAR     &kp KP_EQUAL      &kp RPAR    &kp LA(N5)         &kp LA(H)  &kp LA(N6)   &kp LA(J)   &kp LA(K)          &kp EXCLAMATION  &none
+&kp LA(N3)  &kp LA(N2)    &kp LA(A)    &kp UNDERSCORE    &kp LA(S)   &kp LA(N4)         &kp LA(F)  &kp LA(M)    &kp LA(C)   &kp LA(V)          &kp LA(N)        &none
+                                       &trans            &trans      &mo 3              &trans     &trans
             >;
         };
 

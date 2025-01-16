@@ -2,6 +2,78 @@
   "description": "russian",
   "manipulators": [
     {
+      "description": "----------------------------------------multy-----------------------------------------------",
+      "type": "basic",
+      "conditions": [{"input_sources": [{ "language": "en" }],"type": "input_source_if"}],
+      "from": {
+        "key_code": "5",
+        "modifiers": { "mandatory": ["option"] }
+      },
+      "to": [
+        {
+          "key_code": "8",
+          "modifiers": [ "shift" ]
+        }
+      ]
+    },
+    {
+      "type": "basic",
+      "conditions": [{"input_sources": [{ "language": "ru" }],"type": "input_source_if"}],
+      "parameters": {
+        "basic.to_if_alone_timeout_milliseconds": 10,
+        "basic.to_if_held_down_threshold_milliseconds": 50
+      },
+      "to": { "select_input_source": { "input_source_id": "com.apple.keylayout.ABC" } },
+      "to_after_key_up": { "select_input_source": { "input_source_id": "com.apple.keylayout.RussianWin" } },
+      "from": {
+        "key_code": "5",
+        "modifiers": { "mandatory": ["option"] }
+      },
+      "to_if_held_down": [
+        {
+          "key_code": "8",
+          "halt": false,
+          "modifiers": [ "shift" ]
+        }
+      ]
+    },
+    {
+      "description": "----------------------------------------ampersand-----------------------------------------------",
+      "type": "basic",
+      "conditions": [{"input_sources": [{ "language": "en" }],"type": "input_source_if"}],
+      "from": {
+        "key_code": "4",
+        "modifiers": { "mandatory": ["option"] }
+      },
+      "to": [
+        {
+          "key_code": "7",
+          "modifiers": [ "shift" ]
+        }
+      ]
+    },
+    {
+      "type": "basic",
+      "conditions": [{"input_sources": [{ "language": "ru" }],"type": "input_source_if"}],
+      "parameters": {
+        "basic.to_if_alone_timeout_milliseconds": 10,
+        "basic.to_if_held_down_threshold_milliseconds": 50
+      },
+      "to": { "select_input_source": { "input_source_id": "com.apple.keylayout.ABC" } },
+      "to_after_key_up": { "select_input_source": { "input_source_id": "com.apple.keylayout.RussianWin" } },
+      "from": {
+        "key_code": "4",
+        "modifiers": { "mandatory": ["option"] }
+      },
+      "to_if_held_down": [
+        {
+          "key_code": "7",
+          "halt": false,
+          "modifiers": [ "shift" ]
+        }
+      ]
+    },
+    {
       "description": "----------------------------------------question------------------------------------------------",
       "type": "basic",
       "conditions": [{"input_sources": [{ "language": "en" }],"type": "input_source_if"}],
