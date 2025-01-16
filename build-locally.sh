@@ -11,7 +11,6 @@ build_and_copy () {
     west build \
         -b nice_nano_v2 -- \
         -DSHIELD=charybdis_$side \
-        -S zmk-usb-logging \
         -DZMK_CONFIG="/home/erenatas/GitRepos/zmk-config-charybdis-mini-wireless/config"
 
     cp "./build/zephyr/zmk.uf2" "$CURRENT_DIR/build/charybdis_$side.uf2"
