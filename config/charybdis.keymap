@@ -73,9 +73,9 @@
         NAV {
             bindings = <
 &trans           &kp HOME &mkp RCLK &kp UP     &mkp LCLK  &kp END                       &kp KP_MINUS       &kp N7          &kp N8       &kp N9  &kp KP_DIVIDE      &kp BSPC
-&kp LC(TAB)    &trans   &kp LEFT  &kp DOWN   &kp RIGHT  &kp CAPS                      &kp KP_PLUS        &kp N4          &kp N5       &kp N6  &kp KP_MULTIPLY    &trans
+&kp LC(TAB)      &trans   &kp LEFT  &kp DOWN   &kp RIGHT  &kp CAPS                      &kp KP_PLUS        &kp N4          &kp N5       &kp N6  &kp KP_MULTIPLY    &trans
 &trans           &kp F5   &kp F4    &kp F3     &kp F2     &kp F1                        &kp N0             &kp N1          &kp N2       &kp N3  &kp KP_EQUAL       &kp KP_DOT
-                r                   &trans     &trans     &trans                        &mo 3              &trans
+                                    &trans     &trans     &trans                        &mo 3              &trans
             >;
         };
 
