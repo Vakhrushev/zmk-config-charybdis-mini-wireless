@@ -36,7 +36,7 @@ layers:
     - '9'
   - - KP DIVIDE
     - BSPC
-    - '&u_mt LC(TAB)'
+    - Ctl+ TAB
     - {t: ▽, type: trans}
     - LEFT
     - DOWN
@@ -59,7 +59,7 @@ layers:
     - '2'
     - '3'
     - KP EQUAL
-    - KP DOT
+    - KP DOT r
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {type: held}
