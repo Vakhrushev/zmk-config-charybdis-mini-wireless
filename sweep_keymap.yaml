@@ -36,7 +36,7 @@ layers:
     - '9'
   - - KP DIVIDE
     - BSPC
-    - {t: TAB, h: LCTRL}
+    - '&u_mt LC(TAB)'
     - {t: ▽, type: trans}
     - LEFT
     - DOWN
