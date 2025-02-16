@@ -36,7 +36,7 @@ layers:
     - '9'
   - - KP DIVIDE
     - BSPC
-    - {t: ▽, type: trans}
+    - {t: TAB, h: LCTRL}
     - {t: ▽, type: trans}
     - LEFT
     - DOWN
@@ -86,7 +86,7 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - POWER
     - {t: BT, h: '0'}
     - {t: BT, h: '1'}
     - {t: BT, h: '2'}
