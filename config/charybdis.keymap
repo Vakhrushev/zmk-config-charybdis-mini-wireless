@@ -32,7 +32,7 @@
         td_super: td_super {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <400>;
+            tapping-term-ms = <300>;
             bindings = <&kp LGUI>, <&mo 5>, <&mo 4>;
         };
 
@@ -115,10 +115,10 @@
 
         SUPER {
                     bindings = <
-        &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6                                          &kp F7  &kp F8    &kp F9     &kp F10 &kp F11           &kp F12
-        &trans  &trans  &trans  &trans  &trans  &trans                                          &trans  &trans    &trans     &trans  &kp K_PLAY_PAUSE  &kp C_VOLUME_UP
-        &trans  &trans  &trans  &trans  &trans  &trans                                          &trans  &mkp LCLK &mkp RCLK  &trans  &kp C_MUTE        &kp C_VOLUME_DOWN
-                                &trans  &trans  &trans                                          &trans  &trans
+        &kp LA(LG(LS(LC(EXCLAMATION)))) &kp LA(LG(LS(LC(q))))  &kp LA(LG(LS(LC(w))))  &kp LA(LG(LS(LC(e))))  &kp LA(LG(LS(LC(r))))  &kp LA(LG(LS(LC(t))))                &kp LA(LG(LS(LC(y))))  &kp LA(LG(LS(LC(u))))  &kp LA(LG(LS(LC(i))))      &kp LA(LG(LS(LC(o))))    &kp LA(LG(LS(LC(p))))          &kp LA(LG(LS(LC(QUESTION))))
+        &kp LA(LG(LS(LC(PERCENT))))     &kp LA(LG(LS(LC(a))))  &kp LA(LG(LS(LC(s))))  &kp LA(LG(LS(LC(d))))  &kp LA(LG(LS(LC(f))))  &kp LA(LG(LS(LC(g))))                &kp LA(LG(LS(LC(h))))  &kp LA(LG(LS(LC(j))))  &kp LA(LG(LS(LC(k))))      &kp LA(LG(LS(LC(l))))    &kp LA(LG(LS(LC(SEMICOLON))))  &kp LA(LG(LS(LC(PLUS))))
+        &kp LA(LG(LS(LC(UNDERSCORE))))  &kp LA(LG(LS(LC(z))))  &kp LA(LG(LS(LC(x))))  &kp LA(LG(LS(LC(c))))  &kp LA(LG(LS(LC(v))))  &kp LA(LG(LS(LC(b))))                &kp LA(LG(LS(LC(n))))  &kp LA(LG(LS(LC(m))))  &kp LA(LG(LS(LC(COMMA))))  &kp LA(LG(LS(LC(DOT))))  &kp LA(LG(LS(LC(SLASH))))      &kp LA(LG(LS(LC(MINUS))))
+                                &trans  &trans  &trans                                                                                                                   &trans  &trans
                     >;
                 };
     };

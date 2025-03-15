@@ -156,33 +156,15 @@ layers:
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
   SUPER:
-  - [F1, F2, F3, F4, F5, F6, F7, F8, F9, F10]
-  - - F11
-    - F12
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - PLAY PAUSE
-    - VOLUME UP
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - {t: ▽, type: trans}
-    - '&mkp LCLK'
-    - '&mkp RCLK'
-    - {t: ▽, type: trans}
-    - MUTE
-    - VOLUME DOWN
+  - [Hyper+ !, Hyper+ q, Hyper+ w, Hyper+ e, Hyper+ r, Hyper+ t, Hyper+ y, Hyper+ u, Hyper+ i, Hyper+ o]
+  - [Hyper+ p, 'Hyper+ ?', Hyper+ %, Hyper+ a, Hyper+ s, Hyper+ d, Hyper+ f, Hyper+ g, Hyper+ h, Hyper+ j]
+  - [Hyper+ k, Hyper+ l, Hyper+ ;, Hyper+ +, Hyper+ _, Hyper+ z, Hyper+ x, Hyper+ c, Hyper+ v, Hyper+ b]
+  - - Hyper+ n
+    - Hyper+ m
+    - Hyper+ ,
+    - Hyper+ .
+    - Hyper+ /
+    - Hyper+ -
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
