@@ -21,7 +21,7 @@ layers:
     - C
     - V
     - B
-  - [N, M, ',', ., /, SCROLL, '&td_super LGUI 5 4', SPACE, NAV, SYMNUM]
+  - [N, M, ',', ., /, SCROLL, '&td_super', SPACE, NAV, SYMNUM]
   - [RET]
   NAV:
   - - {t: ▽, type: trans}
