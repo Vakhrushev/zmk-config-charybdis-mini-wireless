@@ -47,7 +47,7 @@ layers:
   - - '5'
     - '6'
     - KP MULTIPLY
-    - {t: ▽, type: trans}
+    - Alt+ C
     - {t: ▽, type: trans}
     - F5
     - F4
@@ -59,7 +59,7 @@ layers:
     - '2'
     - '3'
     - KP EQUAL
-    - KP DOT
+    - Alt+ V
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {type: held}
@@ -139,6 +139,39 @@ layers:
     - PLAY PAUSE
     - VOLUME UP
     - {type: held}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - '&mkp LCLK'
+    - '&mkp RCLK'
+    - {t: ▽, type: trans}
+    - MUTE
+    - VOLUME DOWN
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+  SUPER:
+  - [F1, F2, F3, F4, F5, F6, F7, F8, F9, F10]
+  - - F11
+    - F12
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - PLAY PAUSE
+    - VOLUME UP
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
