@@ -44,7 +44,7 @@ layers:
     - CAPS
     - KP PLUS
     - '4'
-  - ['5', '6', KP MULTIPLY, Alt+ C, Hyper+ ~, 'Hyper+ {', 'Hyper+ ]', 'Hyper+ [', 'Hyper+ }', Hyper+ `]
+  - ['5', '6', KP MULTIPLY, Alt+ C, Hyper+ ^, Hyper+ &, Hyper+ *, 'Hyper+ [', 'Hyper+ ]', Hyper+ `]
   - - '0'
     - '1'
     - '2'

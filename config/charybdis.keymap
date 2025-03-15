@@ -79,9 +79,9 @@
 
         NAV {
             bindings = <
-&trans                     &kp HOME                        &mkp RCLK              &kp UP                 &mkp LCLK              &kp END                                                                     &kp KP_MINUS       &kp N7          &kp N8       &kp N9  &kp KP_DIVIDE      &kp BSPC
-&kp LC(TAB)                &trans                          &kp LEFT               &kp DOWN               &kp RIGHT              &kp CAPS                                                                    &kp KP_PLUS        &kp N4          &kp N5       &kp N6  &kp KP_MULTIPLY    &kp LA(C)
-&kp LA(LG(LS(LC(TILDE))))  &kp LA(LG(LS(LC(LEFT_BRACE))))  &kp LA(LG(LS(LC(RIGHT_BRACKET))))  &kp LA(LG(LS(LC(LEFT_BRACKET))))  &kp LA(LG(LS(LC(RIGHT_BRACE))))  &kp LA(LG(LS(LC(GRAVE))))     &kp N0             &kp N1          &kp N2       &kp N3  &kp KP_EQUAL       &kp LA(V)
+&trans                     &kp HOME                        &mkp RCLK              &kp UP                 &mkp LCLK              &kp END                                               &kp KP_MINUS       &kp N7          &kp N8       &kp N9  &kp KP_DIVIDE      &kp BSPC
+&kp LC(TAB)                &trans                          &kp LEFT               &kp DOWN               &kp RIGHT              &kp CAPS                                              &kp KP_PLUS        &kp N4          &kp N5       &kp N6  &kp KP_MULTIPLY    &kp LA(C)
+&kp LA(LG(LS(LC(CARET))))  &kp LA(LG(LS(LC(AMPS))))  &kp LA(LG(LS(LC(STAR))))     &kp LA(LG(LS(LC(LEFT_BRACKET))))  &kp LA(LG(LS(LC(RIGHT_BRACKET))))  &kp LA(LG(LS(LC(GRAVE))))      &kp N0             &kp N1          &kp N2       &kp N3  &kp KP_EQUAL       &kp LA(V)
                                     &trans     &trans     &trans                        &mo 3              &trans
             >;
         };
