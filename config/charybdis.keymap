@@ -33,7 +33,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <100>;
-            bindings = <&kp LGUI>, <&kp SUPER>, <&kp NAV>;
+            bindings = <&kp LGUI>, <&mo 5>, <&mo 4>;
         };
 
         u_mt: u_mt {
