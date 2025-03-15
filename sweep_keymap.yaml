@@ -156,11 +156,11 @@ layers:
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
   SUPER:
-  - [Hyper+ !, Hyper+ q, Hyper+ w, Hyper+ e, Hyper+ r, Hyper+ t, Hyper+ y, Hyper+ u, Hyper+ i, Hyper+ o]
-  - [Hyper+ p, 'Hyper+ ?', Hyper+ %, Hyper+ a, Hyper+ s, Hyper+ d, Hyper+ f, Hyper+ g, Hyper+ h, Hyper+ j]
-  - [Hyper+ k, Hyper+ l, Hyper+ ;, Hyper+ +, Hyper+ _, Hyper+ z, Hyper+ x, Hyper+ c, Hyper+ v, Hyper+ b]
-  - - Hyper+ n
-    - Hyper+ m
+  - [Hyper+ !, Hyper+ Q, Hyper+ W, Hyper+ E, Hyper+ R, Hyper+ T, Hyper+ Y, Hyper+ U, Hyper+ I, Hyper+ O]
+  - [Hyper+ P, 'Hyper+ ?', Hyper+ %, Hyper+ A, Hyper+ S, Hyper+ D, Hyper+ F, Hyper+ G, Hyper+ H, Hyper+ J]
+  - [Hyper+ K, Hyper+ L, Hyper+ ;, Hyper+ +, Hyper+ _, Hyper+ Z, Hyper+ X, Hyper+ C, Hyper+ V, Hyper+ B]
+  - - Hyper+ N
+    - Hyper+ M
     - Hyper+ ,
     - Hyper+ .
     - Hyper+ /

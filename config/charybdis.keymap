@@ -115,9 +115,9 @@
 
         SUPER {
             bindings = <
-        &kp LA(LG(LS(LC(EXCLAMATION)))) &kp LA(LG(LS(LC(q))))  &kp LA(LG(LS(LC(w))))  &kp LA(LG(LS(LC(e))))  &kp LA(LG(LS(LC(r))))  &kp LA(LG(LS(LC(t))))  &kp LA(LG(LS(LC(y))))  &kp LA(LG(LS(LC(u))))  &kp LA(LG(LS(LC(i))))      &kp LA(LG(LS(LC(o))))    &kp LA(LG(LS(LC(p))))          &kp LA(LG(LS(LC(QUESTION))))
-        &kp LA(LG(LS(LC(PERCENT))))     &kp LA(LG(LS(LC(a))))  &kp LA(LG(LS(LC(s))))  &kp LA(LG(LS(LC(d))))  &kp LA(LG(LS(LC(f))))  &kp LA(LG(LS(LC(g))))  &kp LA(LG(LS(LC(h))))  &kp LA(LG(LS(LC(j))))  &kp LA(LG(LS(LC(k))))      &kp LA(LG(LS(LC(l))))    &kp LA(LG(LS(LC(SEMICOLON))))  &kp LA(LG(LS(LC(PLUS))))
-        &kp LA(LG(LS(LC(UNDERSCORE))))  &kp LA(LG(LS(LC(z))))  &kp LA(LG(LS(LC(x))))  &kp LA(LG(LS(LC(c))))  &kp LA(LG(LS(LC(v))))  &kp LA(LG(LS(LC(b))))  &kp LA(LG(LS(LC(n))))  &kp LA(LG(LS(LC(m))))  &kp LA(LG(LS(LC(COMMA))))  &kp LA(LG(LS(LC(DOT))))  &kp LA(LG(LS(LC(SLASH))))      &kp LA(LG(LS(LC(MINUS))))
+        &kp LA(LG(LS(LC(EXCLAMATION)))) &kp LA(LG(LS(LC(Q))))  &kp LA(LG(LS(LC(W))))  &kp LA(LG(LS(LC(E))))  &kp LA(LG(LS(LC(R))))  &kp LA(LG(LS(LC(T))))  &kp LA(LG(LS(LC(Y))))  &kp LA(LG(LS(LC(U))))  &kp LA(LG(LS(LC(I))))      &kp LA(LG(LS(LC(O))))    &kp LA(LG(LS(LC(P))))          &kp LA(LG(LS(LC(QUESTION))))
+        &kp LA(LG(LS(LC(PERCENT))))     &kp LA(LG(LS(LC(A))))  &kp LA(LG(LS(LC(S))))  &kp LA(LG(LS(LC(D))))  &kp LA(LG(LS(LC(F))))  &kp LA(LG(LS(LC(G))))  &kp LA(LG(LS(LC(H))))  &kp LA(LG(LS(LC(J))))  &kp LA(LG(LS(LC(K))))      &kp LA(LG(LS(LC(L))))    &kp LA(LG(LS(LC(SEMICOLON))))  &kp LA(LG(LS(LC(PLUS))))
+        &kp LA(LG(LS(LC(UNDERSCORE))))  &kp LA(LG(LS(LC(Z))))  &kp LA(LG(LS(LC(X))))  &kp LA(LG(LS(LC(C))))  &kp LA(LG(LS(LC(V))))  &kp LA(LG(LS(LC(B))))  &kp LA(LG(LS(LC(N))))  &kp LA(LG(LS(LC(M))))  &kp LA(LG(LS(LC(COMMA))))  &kp LA(LG(LS(LC(DOT))))  &kp LA(LG(LS(LC(SLASH))))      &kp LA(LG(LS(LC(MINUS))))
                                                                                                                                    &trans  &trans  &trans  &trans  &trans
                     >;
                 };
