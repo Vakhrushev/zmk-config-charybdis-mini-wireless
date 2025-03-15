@@ -10,10 +10,10 @@ layers:
     - {t: F, h: LSHIFT}
     - G
     - H
-    - {t: J, h: LEFT SHIFT}
+    - {t: J, h: RSHIFT}
   - - {t: K, h: RCTRL}
-    - {t: L, h: RIGHT ALT}
-    - {t: ;, h: RIGHT GUI}
+    - {t: L, h: RALT}
+    - {t: ;, h: RGUI}
     - ''''
     - SCROLL
     - Z

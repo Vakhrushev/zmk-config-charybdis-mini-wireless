@@ -202,7 +202,7 @@ path.combo {
 <g transform="translate(480, 84)" class="key keypos-19">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
 <text x="0" y="0" class="key tap">J</text>
-<text x="0" y="24" class="key hold"><tspan style="font-size: 70%">LEFT SHIFT</tspan></text>
+<text x="0" y="24" class="key hold">RSHIFT</text>
 </g>
 <g transform="translate(540, 84)" class="key keypos-20">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
@@ -212,12 +212,12 @@ path.combo {
 <g transform="translate(600, 84)" class="key keypos-21">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
 <text x="0" y="0" class="key tap">L</text>
-<text x="0" y="24" class="key hold"><tspan style="font-size: 78%">RIGHT ALT</tspan></text>
+<text x="0" y="24" class="key hold">RALT</text>
 </g>
 <g transform="translate(660, 84)" class="key keypos-22">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
 <text x="0" y="0" class="key tap">;</text>
-<text x="0" y="24" class="key hold"><tspan style="font-size: 78%">RIGHT GUI</tspan></text>
+<text x="0" y="24" class="key hold">RGUI</text>
 </g>
 <g transform="translate(720, 84)" class="key keypos-23">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
