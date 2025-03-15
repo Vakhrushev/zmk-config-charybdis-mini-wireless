@@ -44,16 +44,7 @@ layers:
     - CAPS
     - KP PLUS
     - '4'
-  - - '5'
-    - '6'
-    - KP MULTIPLY
-    - Alt+ C
-    - {t: ▽, type: trans}
-    - F5
-    - F4
-    - F3
-    - F2
-    - F1
+  - ['5', '6', KP MULTIPLY, Alt+ C, Hyper+ ~, 'Hyper+ {', 'Hyper+ ]', 'Hyper+ [', 'Hyper+ }', Hyper+ `]
   - - '0'
     - '1'
     - '2'
