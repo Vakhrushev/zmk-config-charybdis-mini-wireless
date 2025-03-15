@@ -32,7 +32,7 @@
         td_super: td_super {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <100>;
+            tapping-term-ms = <400>;
             bindings = <&kp LGUI>, <&mo 5>, <&mo 4>;
         };
 
