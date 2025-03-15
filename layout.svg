@@ -275,7 +275,9 @@ path.combo {
 </a></g>
 <g transform="translate(210, 196)" class="key keypos-36">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 78%">&amp;td_super</tspan></text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-1.2em" style="font-size: 78%">&amp;td_super</tspan><tspan x="0" dy="1.2em" style="font-size: 78%">LGUI</tspan><tspan x="0" dy="1.2em" style="font-size: 78%">…</tspan>
+</text>
 </g>
 <g transform="translate(270, 196)" class="key keypos-37">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
