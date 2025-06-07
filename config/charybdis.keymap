@@ -107,7 +107,7 @@
         SCROLL {
             bindings = <
 &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6                                          &kp F7  &kp F8    &kp F9     &kp F10 &kp F11           &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans                                          &trans  &trans    &trans     &trans  &kp K_PLAY_PAUSE  &kp C_VOLUME_UP
+&to 6   &trans  &trans  &trans  &trans  &trans                                          &trans  &trans    &trans     &trans  &kp K_PLAY_PAUSE  &kp C_VOLUME_UP
 &trans  &trans  &trans  &trans  &trans  &trans                                          &trans  &mkp LCLK &mkp RCLK  &trans  &kp C_MUTE        &kp C_VOLUME_DOWN
                         &trans  &trans  &trans                                          &trans  &trans
             >;
@@ -124,7 +124,7 @@
 
         GAME {
                     bindings = <
-        &kp ESC  &kp T      &kp Q &kp W        &kp E     &kp R               &kp Y  &kp U               &kp I          &kp O              &kp P                 &kp BSPC
+        &kp ESC  &kp T      &kp Q &kp W        &kp E     &kp R               &kp Y  &kp U               &kp I          &kp O              &kp P                 &to 0
         &kp TAB  &kp LSHIFT &kp A &kp S        &kp D     &kp F               &kp H  &u_mt RSHIFT J      &u_mt RCTRL K  &u_mt RALT L       &u_mt RGUI SEMI       &kp APOS
         &kp z    &kp B      &kp X &kp C        &kp V     &kp B               &kp N  &kp M               &kp COMMA      &kp DOT            &kp  FSLH             &mo 4
                                   &mo 8        &kp SPACE &mo 7               &mo 2  &kp RET
@@ -133,7 +133,7 @@
 
         GAMEADD {
             bindings = <
-        &kp P &kp N1 &kp N7 &trans &kp N8 &kp N4           &kp Y  &kp U               &kp I          &kp O              &kp P                 &kp BSPC
+        &kp P &kp N1 &kp N7 &trans &kp N8 &kp N4           &kp Y  &kp U               &kp I          &kp O              &kp P                 &to 0
         &kp M &kp N2 &trans &trans &trans &kp N5           &kp H  &u_mt RSHIFT J      &u_mt RCTRL K  &u_mt RALT L       &u_mt RGUI SEMI       &kp APOS
         &kp N &kp N3 &kp N0 &kp I  &kp N9 &kp N6           &kp N  &kp M               &kp COMMA      &kp DOT            &kp  FSLH             &mo 4
                             &trans &trans &trans           &mo 2  &kp RET
@@ -142,12 +142,12 @@
 
         GAMEADD2 {
             bindings = <
-        &kp F1 &kp Y &kp U &kp I &kp O    &kp P              &kp Y  &kp U               &kp I          &kp O              &kp P                 &kp BSPC
+        &kp F1 &kp Y &kp U &kp I &kp O    &kp P              &kp Y  &kp U               &kp I          &kp O              &kp P                 &to 0
         &kp F2 &kp H &kp J &kp L &kp SEMI &kp APOS           &kp H  &u_mt RSHIFT J      &u_mt RCTRL K  &u_mt RALT L       &u_mt RGUI SEMI       &kp APOS
         &kp F3 &kp N &kp M &kp COMMA  &kp DOT &kp FSLH       &kp N  &kp M               &kp COMMA      &kp DOT            &kp  FSLH             &mo 4
                             &trans &trans &trans             &mo 2  &kp RET
             >;
-        };        
+        };
 
     };
 };

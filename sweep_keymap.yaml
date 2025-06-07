@@ -117,7 +117,7 @@ layers:
   - [F1, F2, F3, F4, F5, F6, F7, F8, F9, F10]
   - - F11
     - F12
-    - {t: ▽, type: trans}
+    - {t: GAME, h: toggle}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -164,7 +164,7 @@ layers:
   GAME:
   - [ESC, T, Q, W, E, R, Y, U, I, O]
   - - P
-    - BSPC
+    - {t: BASE, h: toggle}
     - TAB
     - LSHIFT
     - A
@@ -197,7 +197,7 @@ layers:
     - I
     - O
   - - P
-    - BSPC
+    - {t: BASE, h: toggle}
     - M
     - '2'
     - {t: ▽, type: trans}
@@ -230,7 +230,7 @@ layers:
   GAMEADD2:
   - [F1, Y, U, I, O, P, Y, U, I, O]
   - - P
-    - BSPC
+    - {t: BASE, h: toggle}
     - F2
     - H
     - J
