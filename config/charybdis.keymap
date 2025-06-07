@@ -126,7 +126,7 @@
                     bindings = <
         &kp ESC  &kp T      &kp Q &kp W        &kp E     &kp R               &kp Y  &kp U               &kp I          &kp O              &kp P                 &to 0
         &kp TAB  &kp LSHIFT &kp A &kp S        &kp D     &kp F               &kp H  &u_mt RSHIFT J      &u_mt RCTRL K  &u_mt RALT L       &u_mt RGUI SEMI       &kp APOS
-        &kp z    &kp B      &kp X &kp C        &kp V     &kp B               &kp N  &kp M               &kp COMMA      &kp DOT            &kp  FSLH             &mo 4
+        &kp Z    &kp B      &kp X &kp C        &kp V     &kp B               &kp N  &kp M               &kp COMMA      &kp DOT            &kp  FSLH             &mo 4
                                   &mo 8        &kp SPACE &mo 7               &mo 2  &kp RET
                     >;
                 };

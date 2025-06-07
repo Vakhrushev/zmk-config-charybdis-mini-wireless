@@ -177,7 +177,7 @@ layers:
     - {t: L, h: RALT}
     - {t: ;, h: RGUI}
     - ''''
-    - z
+    - Z
     - B
     - X
     - C
