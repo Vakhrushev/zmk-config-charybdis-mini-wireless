@@ -161,6 +161,105 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
+  GAME:
+  - [ESC, T, Q, W, E, R, Y, U, I, O]
+  - - P
+    - BSPC
+    - TAB
+    - LSHIFT
+    - A
+    - S
+    - D
+    - F
+    - H
+    - {t: J, h: RSHIFT}
+  - - {t: K, h: RCTRL}
+    - {t: L, h: RALT}
+    - {t: ;, h: RGUI}
+    - ''''
+    - z
+    - B
+    - X
+    - C
+    - V
+    - B
+  - [N, M, ',', ., /, SCROLL, GAMEADD2, SPACE, GAMEADD, SYMNUM]
+  - [RET]
+  GAMEADD:
+  - - P
+    - '1'
+    - '7'
+    - {t: ▽, type: trans}
+    - '8'
+    - '4'
+    - Y
+    - U
+    - I
+    - O
+  - - P
+    - BSPC
+    - M
+    - '2'
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - '5'
+    - H
+    - {t: J, h: RSHIFT}
+  - - {t: K, h: RCTRL}
+    - {t: L, h: RALT}
+    - {t: ;, h: RGUI}
+    - ''''
+    - N
+    - '3'
+    - '0'
+    - I
+    - '9'
+    - '6'
+  - - N
+    - M
+    - ','
+    - .
+    - /
+    - SCROLL
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {type: held}
+    - SYMNUM
+  - [RET]
+  GAMEADD2:
+  - [F1, Y, U, I, O, P, Y, U, I, O]
+  - - P
+    - BSPC
+    - F2
+    - H
+    - J
+    - L
+    - ;
+    - ''''
+    - H
+    - {t: J, h: RSHIFT}
+  - - {t: K, h: RCTRL}
+    - {t: L, h: RALT}
+    - {t: ;, h: RGUI}
+    - ''''
+    - F3
+    - N
+    - M
+    - ','
+    - .
+    - /
+  - - N
+    - M
+    - ','
+    - .
+    - /
+    - SCROLL
+    - {type: held}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - SYMNUM
+  - [RET]
 combos:
 - p: [32, 33]
   k: '['

@@ -121,5 +121,33 @@
                                                                                                                                    &trans  &trans  &trans  &trans  &trans
                     >;
                 };
+
+        GAME {
+                    bindings = <
+        &kp ESC  &kp T      &kp Q &kp W        &kp E     &kp R               &kp Y  &kp U               &kp I          &kp O              &kp P                 &kp BSPC
+        &kp TAB  &kp LSHIFT &kp A &kp S        &kp D     &kp F               &kp H  &u_mt RSHIFT J      &u_mt RCTRL K  &u_mt RALT L       &u_mt RGUI SEMI       &kp APOS
+        &kp z    &kp B      &kp X &kp C        &kp V     &kp B               &kp N  &kp M               &kp COMMA      &kp DOT            &kp  FSLH             &mo 4
+                                  &mo 8        &kp SPACE &mo 7               &mo 2  &kp RET
+                    >;
+                };
+
+        GAMEADD {
+            bindings = <
+        &kp P &kp N1 &kp N7 &trans &kp N8 &kp N4           &kp Y  &kp U               &kp I          &kp O              &kp P                 &kp BSPC
+        &kp M &kp N2 &trans &trans &trans &kp N5           &kp H  &u_mt RSHIFT J      &u_mt RCTRL K  &u_mt RALT L       &u_mt RGUI SEMI       &kp APOS
+        &kp N &kp N3 &kp N0 &kp I  &kp N9 &kp N6           &kp N  &kp M               &kp COMMA      &kp DOT            &kp  FSLH             &mo 4
+                            &trans &trans &trans           &mo 2  &kp RET
+            >;
+        };
+
+        GAMEADD2 {
+            bindings = <
+        &kp F1 &kp Y &kp U &kp I &kp O    &kp P              &kp Y  &kp U               &kp I          &kp O              &kp P                 &kp BSPC
+        &kp F2 &kp H &kp J &kp L &kp SEMI &kp APOS           &kp H  &u_mt RSHIFT J      &u_mt RCTRL K  &u_mt RALT L       &u_mt RGUI SEMI       &kp APOS
+        &kp F3 &kp N &kp M &kp COMMA  &kp DOT &kp FSLH       &kp N  &kp M               &kp COMMA      &kp DOT            &kp  FSLH             &mo 4
+                            &trans &trans &trans             &mo 2  &kp RET
+            >;
+        };        
+
     };
 };
