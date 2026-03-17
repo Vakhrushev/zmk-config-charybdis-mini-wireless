@@ -1,8 +1,7 @@
-#include <behaviors/mouse_keys.dtsi>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/mouse.h>
+//#include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/outputs.h>
 
 #define U_TAPPING_TERM 200
@@ -76,7 +75,7 @@
 
         NAV {
             bindings = <
-&trans                     &kp HOME                        &mkp RCLK              &kp UP                 &mkp LCLK              &kp END                                               &kp KP_MINUS       &kp N7          &kp N8       &kp N9  &kp KP_DIVIDE      &kp BSPC
+&trans                     &kp HOME                        &none              &kp UP                 &none              &kp END                                               &kp KP_MINUS       &kp N7          &kp N8       &kp N9  &kp KP_DIVIDE      &kp BSPC
 &kp LC(TAB)                &trans                          &kp LEFT               &kp DOWN               &kp RIGHT              &kp CAPS                                              &kp KP_PLUS        &kp N4          &kp N5       &kp N6  &kp KP_MULTIPLY    &kp LA(C)
 &kp LA(LG(LS(LC(CARET))))  &kp LA(LG(LS(LC(AMPS))))  &kp LA(LG(LS(LC(STAR))))     &kp LA(LG(LS(LC(LEFT_BRACKET))))  &kp LA(LG(LS(LC(RIGHT_BRACKET))))  &kp LA(LG(LS(LC(GRAVE))))      &kp N0             &kp N1          &kp N2       &kp N3  &kp KP_EQUAL       &kp LA(V)
                                     &trans     &trans     &trans                        &mo 3              &trans
@@ -105,7 +104,7 @@
             bindings = <
 &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6                                          &kp F7  &kp F8    &kp F9     &kp F10 &kp F11           &kp F12
 &to 6   &trans  &trans  &trans  &trans  &trans                                          &trans  &trans    &trans     &trans  &kp K_PLAY_PAUSE  &kp C_VOLUME_UP
-&trans  &trans  &trans  &trans  &trans  &trans                                          &trans  &mkp LCLK &mkp RCLK  &trans  &kp C_MUTE        &kp C_VOLUME_DOWN
+&trans  &trans  &trans  &trans  &trans  &trans                                          &trans  &none &none  &trans  &kp C_MUTE        &kp C_VOLUME_DOWN
                         &trans  &trans  &trans                                          &trans  &trans
             >;
         };
