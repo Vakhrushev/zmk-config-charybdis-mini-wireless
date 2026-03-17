@@ -1,0 +1,71 @@
+cmake:
+  application:
+    configuration-dir: /zmk-workspace/zmk/app
+    source-dir: /zmk-workspace/zmk/app
+  board:
+    name: nice_nano
+    path:
+     - /zmk-workspace/zmk/app/module/boards/nicekeyboards/nice_nano
+     - /zmk-workspace/zmk/app/boards/nicekeyboards/nice_nano
+    qualifiers: nrf52840/zmk
+    revision: 2.0.0
+  devicetree:
+    bindings-dirs:
+     - /zmk-workspace/zmk-pmw3610-driver/dts/bindings
+     - /zmk-workspace/zmk/app/module/dts/bindings
+     - /zmk-workspace/zmk/app/dts/bindings
+     - /zmk-workspace/zephyr/dts/bindings
+    extra-user-files:
+     - /zmk-workspace/config/charybdis.keymap
+    files:
+     - /zmk-workspace/zmk/app/boards/nicekeyboards/nice_nano/nice_nano_nrf52840_zmk.dts
+     - /zmk-workspace/zmk/app/boards/nicekeyboards/nice_nano/nice_nano_nrf52840_zmk_2_0_0.overlay
+     - /zmk-workspace/config/boards/shields/charybdis/charybdis_left.overlay
+     - /zmk-workspace/config/charybdis.keymap
+    include-dirs:
+     - /zmk-workspace/zmk-pmw3610-driver/dts
+     - /zmk-workspace/modules/hal/stm32/dts
+     - /zmk-workspace/modules/hal/atmel/include
+     - /zmk-workspace/modules/hal/gigadevice/include
+     - /zmk-workspace/modules/hal/nuvoton/dts
+     - /zmk-workspace/zmk/app/module/include
+     - /zmk-workspace/zmk/app/module/dts
+     - /zmk-workspace/zmk/app/include
+     - /zmk-workspace/zmk/app/dts/common
+     - /zmk-workspace/zmk/app/dts
+     - /zmk-workspace/zephyr/include
+     - /zmk-workspace/zephyr/include/zephyr
+     - /zmk-workspace/zephyr/dts/common
+     - /zmk-workspace/zephyr/dts/x86
+     - /zmk-workspace/zephyr/dts/xtensa
+     - /zmk-workspace/zephyr/dts/sparc
+     - /zmk-workspace/zephyr/dts/riscv
+     - /zmk-workspace/zephyr/dts/posix
+     - /zmk-workspace/zephyr/dts/nios2
+     - /zmk-workspace/zephyr/dts/arm64
+     - /zmk-workspace/zephyr/dts/arm
+     - /zmk-workspace/zephyr/dts/arc
+     - /zmk-workspace/zephyr/dts
+  kconfig:
+    files:
+     - /zmk-workspace/zmk/app/boards/nicekeyboards/nice_nano/nice_nano_nrf52840_zmk_2_0_0_defconfig
+     - /zmk-workspace/zmk/app/prj.conf
+     - /zmk-workspace/config/boards/shields/charybdis/charybdis_left.conf
+     - /zmk-workspace/config/charybdis.conf
+     - /zmk-workspace/config/charybdis.conf
+    user-files:
+     - /zmk-workspace/zmk/app/prj.conf
+  toolchain:
+    name: zephyr
+    path: /opt/zephyr-sdk-0.16.9
+  vendor-specific:
+    nordic:
+      svdfile: /zmk-workspace/modules/hal/nordic/nrfx/mdk/nrf52840.svd
+  zephyr:
+    version: 4.1.0
+    zephyr-base: /zmk-workspace/zephyr
+version: 0.1.0
+west:
+  command: /usr/local/bin/west build -s zmk/app -d build_left -b nice_nano//zmk -- -DSHIELD=charybdis_left -DZMK_CONFIG=/zmk-workspace/config
+  topdir: /zmk-workspace
+  version: 1.5.0

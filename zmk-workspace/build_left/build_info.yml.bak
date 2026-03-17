@@ -1,0 +1,5 @@
+west:
+  command: /usr/local/bin/west build -s zmk/app -d build_left -b nice_nano//zmk --
+    -DSHIELD=charybdis_left -DZMK_CONFIG=/zmk-workspace/config
+  topdir: /zmk-workspace
+  version: 1.5.0
